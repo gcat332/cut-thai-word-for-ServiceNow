@@ -26,3 +26,5 @@ This application is developed to support ServiceNow's Predictive Intelligent wit
 - Create new Array Words in `../src/server/dict/`
 - Call new Array in `../src/server/function/dict.js`
 <img width="489" alt="image" src="https://github.com/user-attachments/assets/3687b06d-0361-4af2-9345-e1545de900b7">
+
+ref : https://docs.servicenow.com/bundle/washingtondc-api-reference/page/script/sdk/concept/developing-applications-sdk.html
