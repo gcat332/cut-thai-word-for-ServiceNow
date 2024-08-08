@@ -2,11 +2,17 @@ This application is developed to support ServiceNow's Predictive Intelligent wit
 
 ### procedure :
 - Create connection and new application with ServiceNow SDK
-- Create instance connection
-  `now-sdk auth save devuser1 --host https://myinstance.service-now.com --username user1 --default`
-- Create scope application
+- Create instance connection (example)
+  `now-sdk auth save devuser1 --host https://myinstance.service-now.com --username adminuser1 --default`
+- Create scope application (example)
   `now-sdk convert x_snc_example example-app`
 - Pull repo
+- Fetch application update (example)
+  `now-sdk fetch --auth adminuser1`
+- Build application (example)
+  `now-sdk build`
+- Deploy application (example)
+  `now-sdk deploy --auth adminuser1`
 
 ### how to use :
 - Create business rule or UI action in new application
