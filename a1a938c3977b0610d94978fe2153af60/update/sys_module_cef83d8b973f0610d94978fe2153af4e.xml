@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[import { acronyms } from "../dict/dict_acronyms.js";
+import { city } from "../dict/dict_city.js";
+import { collection } from "../dict/dict_collection.js";
+import { country } from "../dict/dict_country.js";
+import { district } from "../dict/dict_district.js";
+import { geo } from "../dict/dict_geo.js";
+import { ict } from "../dict/dict_ict.js";
+import { universal } from "../dict/dict_universal.js";
+import { stopword } from "../dict/dict_stopword.js";
+
+export var dict = Array.from(
+  new Set(
+    collection.concat(
+      universal,
+      ict,
+      acronyms,
+      geo,
+      country,
+      city,
+      district,
+      //stopword,
+    ),
+  ),
+);
+]]></content>
+        <external_source>false</external_source>
+        <path>x_nhson_cut_thword/cut-thai-word/0.0.1/src/server/function/dict.js</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>mfec.gust</sys_created_by>
+        <sys_created_on>2024-08-08 06:53:25</sys_created_on>
+        <sys_id>cef83d8b973f0610d94978fe2153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nhson_cut_thword/cut-thai-word/0.0.1/src/server/function/dict.js</sys_name>
+        <sys_package display_value="Cut Thai Word Application" source="x_nhson_cut_thword">a1a938c3977b0610d94978fe2153af60</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cut Thai Word Application">a1a938c3977b0610d94978fe2153af60</sys_scope>
+        <sys_update_name>sys_module_cef83d8b973f0610d94978fe2153af4e</sys_update_name>
+        <sys_updated_by>mfec.gust</sys_updated_by>
+        <sys_updated_on>2024-08-08 06:53:25</sys_updated_on>
+    </sys_module>
+</record_update>

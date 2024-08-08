@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[import { GlideRecord, gs } from "@servicenow/glide";
+import { dict } from "./dict.js";
+
+export function cutThaiWord(words) {
+  //check with thai dict
+  words = dictWord(dict, words);
+  return words.toString().replaceAll("  ", " ");
+}
+
+function dictWord(dict, words) {
+  for (var word in dict) {
+    if (words.includes(dict[word])) {
+      words = words.toString().replaceAll(dict[word], " " + dict[word] + " ");
+    }
+  }
+  gs.info(words);
+  return words.toString().replaceAll("  ", " ");
+}
+]]></content>
+        <external_source>false</external_source>
+        <path>x_nhson_cut_thword/cut-thai-word/0.0.1/src/server/function/cutword.js</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>mfec.gust</sys_created_by>
+        <sys_created_on>2024-08-08 06:53:25</sys_created_on>
+        <sys_id>42f83d8b973f0610d94978fe2153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nhson_cut_thword/cut-thai-word/0.0.1/src/server/function/cutword.js</sys_name>
+        <sys_package display_value="Cut Thai Word Application" source="x_nhson_cut_thword">a1a938c3977b0610d94978fe2153af60</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cut Thai Word Application">a1a938c3977b0610d94978fe2153af60</sys_scope>
+        <sys_update_name>sys_module_42f83d8b973f0610d94978fe2153af4e</sys_update_name>
+        <sys_updated_by>mfec.gust</sys_updated_by>
+        <sys_updated_on>2024-08-08 06:53:25</sys_updated_on>
+    </sys_module>
+</record_update>

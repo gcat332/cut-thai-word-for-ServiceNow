@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[export var geo = [
+  "คิวชู",
+  "แคริบเบียน",
+  "แคสเปียน",
+  "ดานูบ",
+  "ตะนาวศรี",
+  "นอร์วีเจียน",
+  "นิโคบาร์",
+  "เนรัญชรา",
+  "ไนล์",
+  "บอร์เนียว",
+  "บอลติก",
+  "เบงกอล",
+  "ปิง",
+  "แปซิฟิก",
+  "มะละกา",
+  "มินดาเนา",
+  "มิสซิสซิปปี",
+  "เมดิเตอร์เรเนียน",
+  "เมโสโปเตเมีย",
+  "ยมุนา",
+  "ยุโรป",
+  "ยูเรเชีย",
+  "ยูเรเซีย",
+  "แยงซี",
+  "แยงซีเกียง",
+  "สแกนดิเนเวีย",
+  "สะโตง",
+  "สาละวิน",
+  "สุมาตรา",
+  "สุเอซ",
+  "อะเมซอน",
+  "อันดามัน",
+  "อัลไต",
+  "อาร์กติก",
+  "อาหรับ",
+  "อินโดจีน",
+  "อิรวดี",
+  "อิระวดี",
+  "อีเจียน",
+  "อุษาคเณย์",
+  "อูราล",
+  "เอเชีย",
+  "เอเดรียติก",
+  "เอเวอเรสต์",
+  "แอตแลนติก",
+  "แอนตาร์กติก",
+  "แอนตาร์กติกา",
+  "แอฟริกา",
+  "โอลิมปัส",
+  "ไอโอเนียน",
+  "ฮวงโห",
+  "ฮอกไกโด",
+  "ฮอนชู",
+];
+]]></content>
+        <external_source>false</external_source>
+        <path>x_nhson_cut_thword/cut-thai-word/0.0.1/src/server/dict/dict_geo.js</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>mfec.gust</sys_created_by>
+        <sys_created_on>2024-08-08 06:53:25</sys_created_on>
+        <sys_id>4af83d8b973f0610d94978fe2153af4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nhson_cut_thword/cut-thai-word/0.0.1/src/server/dict/dict_geo.js</sys_name>
+        <sys_package display_value="Cut Thai Word Application" source="x_nhson_cut_thword">a1a938c3977b0610d94978fe2153af60</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cut Thai Word Application">a1a938c3977b0610d94978fe2153af60</sys_scope>
+        <sys_update_name>sys_module_4af83d8b973f0610d94978fe2153af4a</sys_update_name>
+        <sys_updated_by>mfec.gust</sys_updated_by>
+        <sys_updated_on>2024-08-08 06:53:25</sys_updated_on>
+    </sys_module>
+</record_update>
