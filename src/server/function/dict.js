@@ -16,7 +16,7 @@ export var dict = Array.from(
       acronyms,
       geo,
       country,
-      //city,
+      city,
       district,
       //stopword,
     ),
