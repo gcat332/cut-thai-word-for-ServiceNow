@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access/>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_nhson_cut_thword_to_do</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>LogStateChange</name>
+        <order>100</order>
+        <priority/>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[const { cutThWord } = require('./src/server/script.js');
+
+answer = cutThWord(current.task);
+current.task = answer;
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mfec.gust</sys_created_by>
+        <sys_created_on>2024-08-08 02:18:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf5d5fe7cd654e9f85b2562f265da7fc</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>LogStateChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cut Thai Word Application" source="x_nhson_cut_thword">a1a938c3977b0610d94978fe2153af60</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cut Thai Word Application">a1a938c3977b0610d94978fe2153af60</sys_scope>
+        <sys_update_name>sys_script_cf5d5fe7cd654e9f85b2562f265da7fc</sys_update_name>
+        <sys_updated_by>mfec.gust</sys_updated_by>
+        <sys_updated_on>2024-08-08 07:37:30</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=cf5d5fe7cd654e9f85b2562f265da7fc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cut Thai Word Application">a1a938c3977b0610d94978fe2153af60</application>
+        <file_path/>
+        <instance_id>75315816dbad861437d72a5913961911</instance_id>
+        <instance_name>nhsodev</instance_name>
+        <name>sys_script_cf5d5fe7cd654e9f85b2562f265da7fc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access/&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_nhson_cut_thword_to_do&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LogStateChange&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority/&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[const { cutThWord } = require('./src/server/script.js');
+
+answer = cutThWord(current.task);
+current.task = answer;
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mfec.gust&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-08 02:18:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cf5d5fe7cd654e9f85b2562f265da7fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;LogStateChange&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Cut Thai Word Application" source="x_nhson_cut_thword"&gt;a1a938c3977b0610d94978fe2153af60&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Cut Thai Word Application"&gt;a1a938c3977b0610d94978fe2153af60&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_cf5d5fe7cd654e9f85b2562f265da7fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mfec.gust&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-08 07:37:30&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cf5d5fe7cd654e9f85b2562f265da7fc"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1806651971</payload_hash>
+        <record_name>LogStateChange</record_name>
+        <reverted_from/>
+        <source>857cf00b97bb0610635c3fbe2153af54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mfec.gust</sys_created_by>
+        <sys_created_on>2024-08-08 07:37:30</sys_created_on>
+        <sys_id>e30302cf97bf0610635c3fbe2153afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19130ebe0190000001</sys_recorded_at>
+        <sys_updated_by>mfec.gust</sys_updated_by>
+        <sys_updated_on>2024-08-08 07:37:30</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>2f0302cf5cbf061023b2a5643c8ee5ce</update_guid>
+        <update_guid_history>2f0302cf5cbf061023b2a5643c8ee5ce:-1806651971,24f242cf04bf06101b4d1445175798aa:0,ddd2c68fb1bf0610b9bf0c3f328b275c:-1806651971,0992ca8fa4bf0610588933a3ed439bc2:0,4b22464fdabf0610485784d02758b6ec:-1806651971,0cd2e10b36fb0610ab561b6e0f838689:0,3272e903637f06108798284d39815a26:1076385343,7472e903cd7f0610d9676b959b6ea00c:-1310371798,ec62a9031e7f0610daaf1a95def22144:-1734639711,d7d1a9cf883f06106797388cf340a491:1201969267,2b4a5187dd3f061095e4b56c03ad220c:0,000ad947c13f061051cfb827205c491a:-558755860,762555cb88bb061091e7135f94d86615:0,0fd41d8fd5fb0610e534e2c5280b4c5c:1009596030,68c3d18b7ebb06100bf70463021c5a36:0,80a3994ff2fb0610555962b0ce2016fe:-558755860,bf03994be4bb061036c4601e8e769180:0,a782950f44fb061089053a9a876274ed:1235129979,be621dcb02fb0610482c8bedcd01add8:-1954592924,3652510fe7fb0610b992bf69d2de3092:-1640054635,6e7f854b02fb06104758b0d4ae7c79fb:0,42ee8d0b63fb061064dd4481c1360aa5:1201969267,28ce0d0b0efb0610622937d88f72a139:745480863,118e450b8ffb06109c836cad5dfebdb8:-1812330381,b41705cf397b06100798bde5fb8d167b:0,24a28d0f8ebb0610afc3c42df640112d:1596529841,9d1a30476a7b06102198eb7c66c48d7f:1735077194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mfec.gust</sys_created_by>
+        <sys_created_on>2024-08-08 07:38:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>00788247f9ff40d2829c76180cd57cf1</sys_id>
+        <sys_metadata>cf5d5fe7cd654e9f85b2562f265da7fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LogStateChange</sys_name>
+        <sys_package display_value="Cut Thai Word Application" source="x_nhson_cut_thword">a1a938c3977b0610d94978fe2153af60</sys_package>
+        <sys_parent display_value="">551a74c3977b0610d94978fe2153af69</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cut Thai Word Application">a1a938c3977b0610d94978fe2153af60</sys_scope>
+        <sys_scope_delete display_value="">0490ec0030ec431380315d8a23b69389</sys_scope_delete>
+        <sys_update_name>sys_script_cf5d5fe7cd654e9f85b2562f265da7fc</sys_update_name>
+        <sys_update_version display_value="sys_script_cf5d5fe7cd654e9f85b2562f265da7fc">e30302cf97bf0610635c3fbe2153afcf</sys_update_version>
+        <sys_updated_by>mfec.gust</sys_updated_by>
+        <sys_updated_on>2024-08-08 07:38:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
